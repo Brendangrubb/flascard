@@ -1,0 +1,26 @@
+.row {
+  margin-bottom: 10px;
+  margin-left: 35px;
+  margin-right: 35px;
+}
+.row>* {
+  min-height: 200px;
+}
+
+.bg-grey {
+  background-color: #e6e6e6;
+}
+
+.jumbotron {
+  background-color: #333;
+  color:white;
+}
+
+.hide-it {
+  display: none;
+}
+
+.row h1 {
+  text-align: center;
+  margin-top: 35px;
+}

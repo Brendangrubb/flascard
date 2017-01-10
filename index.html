@@ -11,123 +11,128 @@
     <div class="container">
       <div class="jumbotron">
         <h1>javaScript flashCards</h1>
-        <p></p>
+        <p>A quick reference and study guide of javascript terms and concepts</p>
       </div>
 
-      <div class="row">
+      <div class="row bg-primary">
         <div class="col-md-4" id="javascript">
           <h1>JavaScript(JS)</h1>
-          <p></p>
+          <p class="hide-it">Also known as ECMAScript, it is the only programming language supported by all existing web browsers. It is used to add interactivity and make web pages more dynamic.</p>
         </div>
-        <div class="col-md-4" id="operators">
-          <h1>Operators</h1>
-          <p></p>
-        </div>
-        <div class="col-md-4" id="variables">
-          <h1>Variables</h1>
-          <p></p>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-md-4" id="vnc">
-          <h1>Variable Naming Conventions</h1>
-          <p></p>
-        </div>
-        <div class="col-md-4" id="functions">
-          <h1>Functions</h1>
-          <p></p>
-        </div>
-        <div class="col-md-4" id="methods">
-          <h1>Methods</h1>
-          <p></p>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-md-4" id="arguements">
-          <h1>Arguements</h1>
-          <p></p>
-        </div>
-        <div class="col-md-4" id="parameters">
-          <h1>Parameters</h1>
-          <p></p>
-        </div>
-        <div class="col-md-4" id="return">
-          <h1>Return</h1>
-          <p></p>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-md-4" id="chaining-methods">
-          <h1>Chaining Methods</h1>
-          <p></p>
-        </div>
-        <div class="col-md-4" id="strings">
-          <h1>Strings</h1>
-          <p></p>
-        </div>
-        <div class="col-md-4" id="booleans">
-          <h1>Booleans</h1>
-          <p></p>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-md-4" id="undefined">
-          <h1>Undefined</h1>
-          <p></p>
-        </div>
-        <div class="col-md-4" id="nan">
-          <h1>NaN</h1>
-          <p></p>
-        </div>
-        <div class="col-md-4" id="escape">
-          <h1>Escape</h1>
-          <p></p>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-md-4" id="alert">
-          <h1>Alert</h1>
-          <p></p>
-        </div>
-        <div class="col-md-4" id="comments">
-          <h1>Comments</h1>
-          <p></p>
+        <div class="col-md-4" id="js-library">
+          <h1>Library</h1>
+          <p class="hide-it">A collection of functions, methods, and objects used to perform related actions.</p>
         </div>
         <div class="col-md-4" id="jquery">
           <h1>jQuery</h1>
-          <p></p>
+          <p class="hide-it">A javascript library of functions used to easily make webpages interactive and dynamic.</p>
+        </div>
+
+      </div>
+      <div class="row bg-info">
+        <div class="col-md-4" id="functions">
+          <h1>Functions</h1>
+          <p class="hide-it">Reusable blocks of code with specific names, which can be called on to perform specific tasks.</p>
+        </div>
+        <div class="col-md-4" id="methods">
+          <h1>Methods</h1>
+          <p class="hide-it">Reusable blocks of code with a specific name. Methods are associated with objects and acts on the objects which they are passed, optionally with additional parameters.</p>
+        </div>
+        <div class="col-md-4" id="chaining-methods">
+          <h1>Chaining Methods</h1>
+          <p class="hide-it">Passing returned values from functions or methods into another function or method as an arguement.</p>
+        </div>
+
+      </div>
+      <div class="row bg-success">
+        <div class="col-md-4" id="arguements">
+          <h1>Arguements</h1>
+          <p class="hide-it">Values passed into the parameters of a function or method.</p>
+        </div>
+        <div class="col-md-4" id="parameters">
+          <h1>Parameters</h1>
+          <p class="hide-it">Optional values which a function or method can perform actions upon.</p>
+        </div>
+        <div class="col-md-4" id="return">
+          <h1>Return</h1>
+          <p class="hide-it">A statement with functions and methods which serves to make data explicitly avaliable outside of the operation.</p>
         </div>
       </div>
-      <div class="row">
+      <div class="row bg-warning">
+        <div class="col-md-4" id="variables">
+          <h1>Variables</h1>
+          <p class="hide-it">Various data types given descriptive names for use in programing and operations. E.g. String, Int, Float, Boolean, null.</p>
+        </div>
+        <div class="col-md-4" id="strings">
+          <h1>Strings</h1>
+          <p class="hide-it">A data type consisting of characters or symbols in sequence.</p>
+        </div>
+        <div class="col-md-4" id="numbers">
+          <h1>Numbers</h1>
+          <p class="hide-it">A data type consisting of integer and floating point number values.</p>
+        </div>
+
+      </div>
+      <div class="row bg-grey">
+        <div class="col-md-4" id="booleans">
+          <h1>Booleans</h1>
+          <p class="hide-it">A data type consisting of either True or False.</p>
+        </div>
+        <div class="col-md-4" id="undefined">
+          <h1>Undefined</h1>
+          <p class="hide-it">A variable with no defined value.</p>
+        </div>
+        <div class="col-md-4" id="null">
+          <h1>Null</h1>
+          <p class="hide-it">An intentional absence of any object value.</p>
+        </div>
+
+      </div>
+      <div class="row bg-warning">
+        <div class="col-md-4" id="nan">
+          <h1>NaN</h1>
+          <p class="hide-it">Any data in the number data type that does not conform to the conventions of that type, but is stored as a number value.</p>
+        </div>
+        <div class="col-md-4" id="infinity">
+          <h1>Infinity</h1>
+          <p class="hide-it">The result of division by zero in javascript, stored as a number value.</p>
+        </div>
         <div class="col-md-4" id="attributes">
           <h1>Attributes</h1>
-          <p></p>
+          <p class="hide-it">Values assigned to html elements to make them easily referenced and manipulated by javascript and css.</p>
         </div>
-        <div class="col-md-4">
-          <h1></h1>
-          <p></p>
+
+      </div>
+      <div class="row bg-success">
+
+        <div class="col-md-4" id="operators">
+          <h1>Operators</h1>
+          <p class="hide-it">Symbols that indicate an action to be performed. E.g. +, -, *, /, % </p>
         </div>
-        <div class="col-md-4">
-          <h1></h1>
-          <p></p>
+        <div class="col-md-4" id="assignment-operators">
+          <h1>Assignment Operators</h1>
+          <p class="hide-it">Special symbols which denote an permenant action to be performed on a variable, changing its value.</p>
+        </div>
+        <div class="col-md-4" id="comparison-operators">
+          <h1>Comparison Operators</h1>
+          <p class="hide-it">Special symbols which denote comparisons to be performed between two or more values. Returns a boolean value.</p>
         </div>
       </div>
-      <div class="row">
-        <div class="col-md-4">
-          <h1></h1>
-          <p></p>
+      <div class="row bg-info">
+        <div class="col-md-4" id="escape">
+          <h1>Escape</h1>
+          <p class="hide-it">Special characters used to denote special action to be taken.</p>
         </div>
-        <div class="col-md-4">
-          <h1></h1>
-          <p></p>
+        <div class="col-md-4" id="alert">
+          <h1>Alert</h1>
+          <p class="hide-it">A javascript function which creates a small window to alert the user with a specified message.</p>
         </div>
-        <div class="col-md-4">
-          <h1></h1>
-          <p></p>
+        <div class="col-md-4" id="comments">
+          <h1>Comments</h1>
+          <p class="hide-it">Specially escaped blocks of code with are not run normally in a program. They are used to inform readers of the code in question.</p>
         </div>
+
       </div>
-
-
 
 
 
