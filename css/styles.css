@@ -7,6 +7,10 @@
   min-height: 200px;
 }
 
+.row>*:hover h1 {
+  text-decoration: underline;
+}
+
 .bg-grey {
   background-color: #e6e6e6;
 }
@@ -23,4 +27,12 @@
 .row h1 {
   text-align: center;
   margin-top: 35px;
+}
+
+.clickable {
+  cursor: pointer;
+}
+
+.clickable.hover {
+  text-decoration: underline;
 }
